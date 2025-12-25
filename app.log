@@ -1,0 +1,7 @@
+2025-01-01 10:00:01 INFO Application started
+2025-01-01 10:01:15 WARNING Disk space low
+2025-01-01 10:02:30 ERROR Failed to connect to database
+2025-01-01 10:03:45 INFO User logged in
+2025-01-01 10:04:10 ERROR Timeout while fetching data
+2025-01-01 10:05:00 WARNING High memory usage
+2025-01-01 10:06:20 ERROR Failed to connect to database

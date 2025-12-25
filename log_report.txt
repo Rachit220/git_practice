@@ -1,0 +1,7 @@
+LOG FILE ANALYSIS REPORT
+------------------------
+INFO messages    : 2
+WARNING messages : 2
+ERROR messages   : 3
+
+ERROR DETAILS:
