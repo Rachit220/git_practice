@@ -1,0 +1,5 @@
+Text File Analysis Result
+-------------------------
+Lines: 4
+Words: 11
+Characters: 56
