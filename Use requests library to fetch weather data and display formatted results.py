@@ -11,7 +11,6 @@ def get_weather(city):
         "units": "metric"   # Celsius
     }
 
-    # THIS LINE WAS MISSING
     response = requests.get(BASE_URL, params=params)
 
     # ERROR HANDLING
@@ -44,3 +43,4 @@ def display_weather(info):
 
 if __name__ == "__main__":
     get_weather(CITY)
+
