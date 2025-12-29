@@ -1,0 +1,53 @@
+{
+    "company": {
+        "name": "TechNova",
+        "location": "India",
+        "departments": [
+            {
+                "name": "Engineering",
+                "employees": [
+                    {
+                        "id": 101,
+                        "name": "Rachit",
+                        "skills": [
+                            "Python",
+                            "Django"
+                        ],
+                        "salary": 66000
+                    },
+                    {
+                        "id": 102,
+                        "name": "Aman",
+                        "skills": [
+                            "Java",
+                            "Spring"
+                        ],
+                        "salary": 55000
+                    },
+                    {
+                        "id": 103,
+                        "name": "Kunal",
+                        "skills": [
+                            "JavaScript",
+                            "React"
+                        ],
+                        "salary": 50000
+                    }
+                ]
+            },
+            {
+                "name": "HR",
+                "employees": [
+                    {
+                        "id": 201,
+                        "name": "Neha",
+                        "skills": [
+                            "Recruitment"
+                        ],
+                        "salary": 40000
+                    }
+                ]
+            }
+        ]
+    }
+}
