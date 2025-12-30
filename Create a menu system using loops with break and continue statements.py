@@ -1,5 +1,5 @@
 while True:
-    print("\n==== MENU ====")
+    print("\n MENU ")
     print("1. Say Hello")
     print("2. Add Two Numbers")
     print("3. Skip this turn")
@@ -17,12 +17,13 @@ while True:
 
     elif choice == "3":
         print(" Skipping this option...")
-        continue   # Go back to menu
+        continue   
 
     elif choice == "4":
         print("Exiting program. Goodbye!")
-        break      # Exit loop
+        break   
 
     else:
         print("Invalid choice. Try again.")
         continue
+
