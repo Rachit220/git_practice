@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; background: #6e8f9e; }
+        .container { background: rgb(236, 232, 235); padding: 20px; border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border-bottom: 1px solid #85116c; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>My Database Tasks</h2>
+        
+        <form action="/" method="POST">
+            <input type="text" name="content" id="content" placeholder="Enter a new task..." required>
+            <input type="submit" value="Add Task">
+        </form>
+
+        <table>
+            <tr>
+                <th>Task</th>
+                <th>Added</th>
+            </tr>
+            {% for task in tasks %}
+            <tr>
+                <td>{{ task.content }}</td>
+                <td>{{ task.date_created.strftime('%Y-%m-%d') }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>
