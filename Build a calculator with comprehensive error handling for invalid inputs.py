@@ -40,8 +40,7 @@ def calculate():
             print(f"An unexpected error occurred: {e}")
         
         else:
-            # This runs only if no exceptions were raised
-            # Format the result to remove .0 if it's a whole number
+           
             formatted_result = int(result) if result.is_integer() else result
             print(f"Result: {n1} {operator} {n2} = {formatted_result}")
 
@@ -49,3 +48,4 @@ def calculate():
 
 if __name__ == "__main__":
     calculate()
+
