@@ -1,0 +1,14 @@
+[
+    {
+        "amount": 200000.0,
+        "category": "salary",
+        "type": "income",
+        "date": "2026-01-06 17:05:04"
+    },
+    {
+        "amount": 10000.0,
+        "category": "petrol",
+        "type": "expense",
+        "date": "2026-01-06 17:05:18"
+    }
+]
